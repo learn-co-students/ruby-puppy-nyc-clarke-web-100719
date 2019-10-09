@@ -1,7 +1,7 @@
 # Ruby Remembrance Lab
 
 ## Learning Goals
-
+g
 - Use a class variable to keep track of every instance of a class that is
   created
 - Write a class method to access the list of all instances of a class, stored in
