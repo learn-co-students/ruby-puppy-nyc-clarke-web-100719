@@ -2,18 +2,10 @@ require 'pry'
 
 class Dog
   attr_accessor :name
-
   @@all = []
-  @@dog_names = []
 
   def initialize(name)
     @name = name
-
-    @@dog_names << name
-    #
-    # self.all
-    # @@all << self
-
     save
   end
 
@@ -38,8 +30,4 @@ class Dog
   def self.all
     @@all
   end
-
-
 end
-
-# binding.pry
