@@ -44,7 +44,7 @@ describe "Dog" do
       end
     end
   end
-  
+
 
   describe "#save" do
     it "adds this dog instance to the @@all array when called" do
